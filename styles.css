@@ -5,6 +5,8 @@
     --cor-branco: #FFFFFF;
     --cor-cinza-claro: #F4F4F4;
 }
+
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -127,9 +129,6 @@ section {
 .content img:hover{
     box-shadow: 2px 2px 2px 2px rgb(19, 18, 18);
 }
-img {
-    max-width: 100%;
-    height: auto;
 #mapa{
     font-size: 30px;
     text-align: center;
