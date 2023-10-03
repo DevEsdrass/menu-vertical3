@@ -5,28 +5,15 @@
     --cor-branco: #FFFFFF;
     --cor-cinza-claro: #F4F4F4;
 }
+.social-icon {
+    width: 100px;
+    height: auto; 
+}
 
- @media (max-width: 768px) {
-            /* Adicione estilos específicos para telas menores aqui */
-            body {
-                font-size: 16px;
-            }
-            .content {
-                padding: 20px;
-            }
-        }
 
-        /* Estilos para telas maiores, como desktops */
-        @media (min-width: 769px) {
-            /* Adicione estilos específicos para telas maiores aqui */
-            body {
-                font-size: 18px;
-            }
-            .content {
-                padding: 40px;
-            }
-        }
-
+@media (max-width: 768px) {
+    .social-icon {
+        width: 60px;
 
 body, h1, h2, p {
     margin: 0;
