@@ -5,16 +5,6 @@
     --cor-branco: #FFFFFF;
     --cor-cinza-claro: #F4F4F4;
 }
-.social-icon {
-    width: 100px;
-    height: auto; 
-}
-
-
-@media (max-width: 768px) {
-    .social-icon {
-        width: 60px;
-
 body, h1, h2, p {
     margin: 0;
     padding: 0;
